@@ -1,0 +1,84 @@
+:root {
+  --black: #000000;
+  --gray-5: #121212;
+  --gray-10: #181818;
+  --gray-20: #222326;
+  --gray-28: #282828;
+  --gray-30: #333333;
+  --gray-50: #535353;
+  --gray-100: #919496;
+  --gray-500: #dddddd;
+  --white: #ffffff;
+  --green: #1ed760;
+  --blue: #2d46b9;
+  --ice: #9bf0e1;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--white);
+  background: var(--black);
+  font: 1rem 'Montserrat', sans-serif;
+}
+
+button, a {
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--gray-50);
+  transition: .2s;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--gray-100);
+}
+
+#nprogress {
+  position: relative;
+  z-index: 999;
+}
+
+#nprogress .bar {
+  background: var(--green);
+  height: 3px;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--green), 0 0 5px var(--green);
+}
+
+/* responsive fonts */
+@media(max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media(max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+}
