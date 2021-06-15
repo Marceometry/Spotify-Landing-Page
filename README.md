@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-<h4> Acesse em: https://spotify-ui-clone.vercel.app </h4>
+<h4> Acesse em: https://spotify-landing-page-clone.vercel.app </h4>
 
 O projeto consiste em um clone da interface da Landing Page do [Spotify](https://spotify.com).
 
